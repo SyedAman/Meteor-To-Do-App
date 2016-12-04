@@ -9,7 +9,7 @@ import template from './todosList.htm';
 class TodosListCtrl {
     // define constructor
     constructor() {
-        // define tasks
+        // define tasks as an array of objects
         this.tasks = [
         {
             text: 'This is task 1'
@@ -22,3 +22,15 @@ class TodosListCtrl {
         }];
     }
 }
+
+// export as an Angular module
+export default angular.module('todoslist', [
+    angularMeteor
+])
+    // define component
+    .component('todosList', {
+        // reference template for component
+        templateUrl: 'imports/components/todosList/todosList.html',
+        // reference controller for component
+        controller: TodosListCtrl
+    });
