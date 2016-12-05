@@ -3,7 +3,7 @@
 // import libraries
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import template from './todosList.htm';
+import template from './todosList.html';
 
 // define controller for component
 class TodosListCtrl {
@@ -24,7 +24,7 @@ class TodosListCtrl {
 }
 
 // export as an Angular module
-export default angular.module('todoslist', [
+export default angular.module('todosList', [
     angularMeteor
 ])
     // define component
