@@ -1,6 +1,11 @@
 # Meteor To Do App
 
-Meteor + AngularJS to manage a to do list and collaborate with others
+MeteorJS + AngularJS1 to manage a to do list and collaborate with others
+
+## Stacks
+
+- MeteorJS
+- AngularJS 1
 
 ## Topics Covered
 
@@ -21,11 +26,9 @@ Meteor + AngularJS to manage a to do list and collaborate with others
 
     ```command
     $ meteor npm install
+    packages installed
     $ meteor
+    App running at: http://localhost:3000/
     ```
 
 1. Go to web browser to see the app running
-
-    ```command
-    localhost:3000
-    ```
