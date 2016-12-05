@@ -28,7 +28,7 @@ export default angular.module('todosList', [
     angularMeteor
 ])
     // define component
-    .component('todosList', {
+    .component('todosListComponent', {
         // reference template for component
         templateUrl: 'imports/components/todosList/todosList.html',
         // reference controller for component
